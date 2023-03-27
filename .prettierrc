@@ -1,0 +1,11 @@
+{
+	"singleQuote": true,
+	"trailingComma": "es5",
+	"printWidth": 80,
+	"tabWidth": 4,
+	"useTabs": true,
+	"plugins": ["@prettier/plugin-pug"],
+	"pugPrintWidth": 120,
+	"pugAttributeSeparator": "always",
+	"pugClosingBracketPosition": "last-line"
+}

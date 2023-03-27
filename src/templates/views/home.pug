@@ -1,0 +1,25 @@
+//- doctype html
+//- head
+//- 	meta(charset='UTF-8')
+//- 	meta(http-equiv='X-UA-Compatible' content='IE=edge')
+//- 	meta(name='viewport' content='width=device-width, initial-scale=1.0')
+//- 	link(rel="stylesheet" href="/assets/style.css")
+//- 	title Document
+//- 	body.bg-body
+//- 		include /src/templates/components/header.pug
+//- 		main
+//- 			include /src/templates/components/slider-video.pug
+
+//- 		script(type='module' src='/main.js')
+doctype html
+head
+	meta(charset='UTF-8')
+	meta(http-equiv='X-UA-Compatible' content='IE=edge')
+	meta(name='viewport' content='width=device-width, initial-scale=1.0')
+	link(rel="stylesheet" href="/assets/style.css")
+	title Document
+	body.bg-body
+		include ../components/header.pug
+		main
+			include ../components/slider-video.pug
+		script(type='module' src='/main.js')
